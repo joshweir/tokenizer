@@ -16,10 +16,10 @@ module Tokenizer
     SIMPLE_POST = ['!', '?', ',', ':', ';', '.']
 
     # Characters as splittable prefixes with an optional matching suffix.
-    PAIR_PRE = ['(', '{', '[', '<', '«', '„','”','‘']
+    PAIR_PRE = ['(', '{', '[', '<', '«', '„','“','‘']
 
     # Characters as splittable suffixes with an optional matching prefix.
-    PAIR_POST = [')', '}', ']', '>', '»', '“']
+    PAIR_POST = [')', '}', ']', '>', '»', '”']
 
     # Characters which can be both prefixes AND suffixes.
     PRE_N_POST = ['"','`']
